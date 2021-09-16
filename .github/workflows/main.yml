@@ -25,5 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         
+      - name: login
+        run: npm login --registry http://193.110.252.145:4873/
+        
       - name: npm publish 
         run: npm publish --registry http://193.110.252.145:4873/
