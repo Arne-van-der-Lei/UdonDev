@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: npm login
-        run: /
+        run: 
           npm login --registry http://193.110.252.145:4873/
           ${{ secrets.USERNAME }}
           ${{ secrets.PASS }}
