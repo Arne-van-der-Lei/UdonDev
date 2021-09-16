@@ -1,7 +1,7 @@
 {
     "name": "com.talox.udondev",
-    "version": "0.1.1",
-    "displayName": "UdonDev",
+    "version": "0.1.2",
+    "displayName": "Udon Talox",
     "description": "Udon extras",
     "unity": "2019.4",
     "unityRelease": "29f1",
